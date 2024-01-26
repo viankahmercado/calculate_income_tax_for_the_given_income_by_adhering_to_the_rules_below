@@ -14,5 +14,11 @@ income = 19000
 print("Given income:", income)
 
 # if-else statment for condition
-
+if income <= 10000:
+    tax_to_pay = 0
+elif income <= 20000:
+    tax_to_pay = (income - 10000) * 10 / 100
+else:
+    tax_to_pay = 10000 * 10 / 100
+    tax_to_pay += (income - 20000) * 20 / 100
 # print the result
