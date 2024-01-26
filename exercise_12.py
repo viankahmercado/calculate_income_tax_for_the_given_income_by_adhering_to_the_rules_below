@@ -10,6 +10,8 @@
 # 10000*0% + 10000*10%  + 25000*20% = $6000.
 
 # assign income as variable
+income = 19000
+print("Given income:", income)
 
 # if-else statment for condition
 
