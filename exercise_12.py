@@ -21,4 +21,6 @@ elif income <= 20000:
 else:
     tax_to_pay = 10000 * 10 / 100
     tax_to_pay += (income - 20000) * 20 / 100
+    
 # print the result
+print("Total tax to pay is", tax_to_pay)
